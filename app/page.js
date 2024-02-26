@@ -34,7 +34,7 @@ export default function Home() {
             </div>
             <div>
             <ParagraphV1>
-            Over the past few years, we've worked with a wide range of clients, each with their own unique needs and goals. Despite these differences, there's one thing that all of our clients have in common: a desire to succeed.
+            Over the past few years, we have worked with a wide range of clients, each with their own unique needs and goals. Despite these differences, there is one thing that all of our clients have in common a desire to succeed.
 
             </ParagraphV1>
             </div>
@@ -128,6 +128,36 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/*3rd page*/}
+      <div className="h-[100vh] relative" >
+        <div className="absolute h-full w-full bg-custom-gradient flex flex-col "/>
+          
+        <div className="absolute h-full w-full opacity-10">
+          <Image src='/thirdBG.png' alt='thirdBG' fill objectFit="cover"></Image>
+        </div>
+        <div className="absolute w-full h-full flex flex-col">
+          <HeaderV1>Products</HeaderV1>
+
+
+        </div>
+        <div className="h-full flex flex-col lg:flex-row">
+          <div className=" w-[600px] h-[600px] relative">
+          <Image src= '/globe.svg' alt='globe-logo' fill objectFit="cover"/>
+
+          </div>
+        </div>
+        
+
+        
+      </div>
+        
+          
+
+        
+
+        
+      
 
 
     </main>
