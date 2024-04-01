@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(to bottom, #000000, #313b42)',
-        'second-background': './secondBG.png',
+        'custom-gradient-2':'linear-gradient(to right,#000000,#202039)'
 
       },
     },

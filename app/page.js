@@ -151,6 +151,169 @@ export default function Home() {
 
         
       </div>
+
+      {/*4th page*/}
+      <div className="h-[550vh] relative" >
+        <div className="absolute h-full w-full bg-custom-gradient-2 flex flex-col">
+          <div className="w-full h-[100px]">
+            <div className="relative justify-center items-center w-full h-full flex flex-row">
+              <HeaderV1>Services</HeaderV1>
+              
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div className="h-[3px] w-full " style={{background:'linear-gradient(to bottom right,#cdffd8,#94b9ff'}}/>
+            </div>
+
+            <div className="relative justify-center items-center w-full h-[400px] flex flex-row">
+              {/* /*<HeaderV1>Fill Content 1</HeaderV1>*/}
+              <div className="h-full w-full ">
+
+              </div>
+              <div className="relative h-full w-[800px]">
+                <Image src= '/12.svg' alt='clients-logo' fill objectFit="cover"/>
+
+              </div>
+              
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div className="h-[3px] w-full " style={{background:'linear-gradient(to bottom right,#8c52ff,#00bf63'}}/>
+            </div>
+
+            <div className="relative justify-center items-center w-full h-[400px] flex flex-row">
+              {/* <HeaderV1>Fill Content 2</HeaderV1> */}
+              <div className="relative h-full w-[800px] ">
+                <Image src= '/13.svg' alt='clients-logo' fill objectFit="cover"/>
+
+              </div>
+              <div className="relative h-full w-full">
+
+              </div>
+              
+            </div>
+
+            <div className="w-full h-full flex justify-center items-center">
+              <div className="h-[3px] w-full " style={{background:'linear-gradient(to bottom right,#cdffd8,#94b9ff'}}/>
+            </div>
+
+            <div className="relative justify-center items-center w-full h-[400px] flex flex-row">
+              
+              <div className="relative h-full w-full">
+
+              </div>
+              <div className="relative h-full w-[800px]">
+                <Image src= '/12.svg' alt='clients-logo' fill objectFit="cover"/>
+
+              </div>
+              
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div className="h-[3px] w-full " style={{background:'linear-gradient(to bottom right,#8c52ff,#00bf63'}}/>
+            </div>
+
+            <div className="relative justify-center items-center w-full h-[400px] flex flex-row">
+              {/* <HeaderV1>Fill Content 4</HeaderV1> */}
+              <div className="relative h-full w-[800px] ">
+                <Image src= '/14.svg' alt='clients-logo' fill objectFit="cover"/>
+
+              </div>
+              <div className="relative h-full w-full">
+
+              </div>
+              
+            </div>
+
+            <div className="w-full h-full flex justify-center items-center">
+              <div className="h-[3px] w-full " style={{background:'linear-gradient(to bottom right,#5de0e6,#004aad'}}/>
+            </div>
+
+            <div className="relative justify-center items-center w-full h-[400px] flex flex-row">
+              
+              <div className="relative h-full w-full">
+
+              </div>
+              <div className="relative h-full w-[800px]">
+                <Image src= '/15.svg' alt='clients-logo' fill objectFit="cover"/>
+
+              </div>
+              
+            </div>
+
+            <div className="w-full h-full flex justify-center items-center">
+              <div className="h-[3px] w-full " style={{background:'linear-gradient(to bottom right,#5170ff,#ff66c4'}}/>
+            </div>
+
+           <div className="relative justify-center items-center w-full h-[400px] flex flex-row">
+              {/* <HeaderV1>Fill Content 2</HeaderV1> */}
+              <div className="relative h-full w-[800px] ">
+                <Image src= '/13.svg' alt='clients-logo' fill objectFit="cover"/>
+
+              </div>
+              <div className="relative h-full w-full">
+
+              </div>
+              
+            </div>
+
+            <div className="w-full h-full flex justify-center items-center">
+              <div className="h-[3px] w-full " style={{background:'linear-gradient(to bottom right,#8c52ff,#5ce1e6'}}/>
+            </div>
+
+            <div className="relative justify-center items-center w-full h-[400px] flex flex-row">
+              
+              <div className="relative h-full w-full">
+
+              </div>
+              <div className="relative h-full w-[800px]">
+                <Image src= '/12.svg' alt='clients-logo' fill objectFit="cover"/>
+
+              </div>
+              
+            </div>
+
+            <div className="w-full h-full flex justify-center items-center">
+              <div className="h-[3px] w-full " style={{background:'linear-gradient(to bottom right,#5de0e6,#004aad'}}/>
+            </div>
+
+            <div className="relative justify-center items-center w-full h-[400px] flex flex-row">
+              {/* <HeaderV1>Fill Content 2</HeaderV1> */}
+              <div className="relative h-full w-[800px] ">
+                <Image src= '/14.svg' alt='clients-logo' fill objectFit="cover"/>
+
+              </div>
+              <div className="relative h-full w-full">
+
+              </div>
+              
+            </div>
+
+            <div className="w-full h-full flex justify-center items-center">
+              <div className="h-[3px] w-full " style={{background:'linear-gradient(to bottom right,#5170ff,#ff66c4'}}/>
+            </div>
+
+            {/*clients and users page*/}
+            <div className="relative w-full h-full flex flex-row justify-center items-center ">
+              <HeaderV1>ISO Certified</HeaderV1>
+              <HeaderV1>Users</HeaderV1>
+              <HeaderV1>Clients</HeaderV1>
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div className="h-[3px] w-[1500px] " style={{background:'linear-gradient(to bottom right,#ff3131,#ff914d'}}/>
+            </div>
+            <div className=" w-full h-[600px] flex flex-row items-center justify-center">
+              <div className="relative w-[1000px] h-[600px] items-center justify-center">
+                <Image src= '/client.png' alt='clients-logo' fill objectFit="cover"/>
+
+              </div>
+              
+            </div>
+
+          </div>
+
+        </div>
+
+                
+
+      </div>
         
           
 
